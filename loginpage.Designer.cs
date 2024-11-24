@@ -1,6 +1,6 @@
 ﻿namespace medi_records
 {
-    partial class Form1
+    partial class loginpage
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SuspendLayout();
+            // 
+            // loginpage
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(638, 362);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Name = "loginpage";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Login";
+            ResumeLayout(false);
         }
 
         #endregion
