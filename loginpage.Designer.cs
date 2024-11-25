@@ -46,7 +46,6 @@
             textBox1.Location = new Point(132, 196);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Enter username";
             textBox1.Size = new Size(200, 25);
             textBox1.TabIndex = 1;
             textBox1.TextChanged += textBox1_TextChanged;
@@ -58,7 +57,6 @@
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.PasswordChar = '*';
-            textBox2.PlaceholderText = "Enter password";
             textBox2.Size = new Size(200, 25);
             textBox2.TabIndex = 2;
             textBox2.TextChanged += textBox2_TextChanged;
@@ -90,11 +88,11 @@
             // 
             username.AutoSize = true;
             username.BackColor = Color.Transparent;
-            username.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            username.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             username.ForeColor = SystemColors.Control;
-            username.Location = new Point(56, 196);
+            username.Location = new Point(49, 198);
             username.Name = "username";
-            username.Size = new Size(70, 22);
+            username.Size = new Size(77, 23);
             username.TabIndex = 3;
             username.Text = "Username";
             username.Click += username_Click;
@@ -103,11 +101,11 @@
             // 
             password.AutoSize = true;
             password.BackColor = Color.Transparent;
-            password.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            password.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             password.ForeColor = SystemColors.Control;
-            password.Location = new Point(59, 245);
+            password.Location = new Point(52, 247);
             password.Name = "password";
-            password.Size = new Size(67, 22);
+            password.Size = new Size(74, 23);
             password.TabIndex = 4;
             password.Text = "Password";
             password.Click += password_Click;
@@ -151,6 +149,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "loginpage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";

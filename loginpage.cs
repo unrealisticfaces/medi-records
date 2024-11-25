@@ -14,10 +14,7 @@ namespace medi_records
 
         private void button1_Click(object sender, EventArgs e)
         {
-            signup signupForm = new signup();
-            this.Hide();
-            signupForm.Show();
-            signupForm.FormClosed += (s, args) => this.Show();
+           
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -42,7 +39,10 @@ namespace medi_records
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            signup signupForm = new signup();
+            this.Hide();
+            signupForm.Show();
+            signupForm.FormClosed += (s, args) => this.Show();
         }
     }
 }

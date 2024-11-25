@@ -166,6 +166,7 @@
             Controls.Add(button1);
             ForeColor = SystemColors.Control;
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "signup";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sign up";
