@@ -168,6 +168,7 @@
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             Name = "signup";
+            ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sign up";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -34,7 +34,10 @@ namespace medi_records
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            forgotpassword forgotForm = new forgotpassword();
+            this.Hide();
+            forgotForm.Show();
+            forgotForm.FormClosed += (s, args) => this.Show();
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
